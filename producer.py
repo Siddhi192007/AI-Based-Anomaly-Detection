@@ -20,9 +20,13 @@ while True:
     time.sleep(2)
 
 Output:
-Producer started... Sending patient vitals
-Sent: {'heart_rate': 82, 'oxygen': 96, 'bp': 118}
-Sent: {'heart_rate': 90, 'oxygen': 94, 'bp': 130}
-Sent: {'heart_rate': 75, 'oxygen': 97, 'bp': 110}
 
-O
+Producer Started
+
+Sent: {'patient_id': 1, 'heart_rate': 78, 'oxygen': 98, 'temperature': 36.6}
+
+Sent: {'patient_id': 2, 'heart_rate': 115, 'oxygen': 95, 'temperature': 37.9}
+
+Sent: {'patient_id': 3, 'heart_rate': 70, 'oxygen': 99, 'temperature': 36.4}
+
+Sent: {'patient_id': 4, 'heart_rate': 130, 'oxygen': 93, 'temperature': 38.5}
